@@ -1,5 +1,5 @@
 package se.lexicon;
 @FunctionalInterface
 public interface Action {
-    void execute();
+    void execute(Product product);
 }
