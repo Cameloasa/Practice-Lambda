@@ -49,7 +49,7 @@ public class App
         Conditional conditionalStock = (p) -> p.getStock() < 10 && p.getStock() > 0;
         Action setPrice = (p) -> p.setPrice(p.getPrice() * 1.5);
         process(products,(p) -> p.getStock() < 10 && p.getStock() > 0,(p) -> p.setPrice(p.getPrice() * 1.5));
-        System.out.println(products);
+        System.out.print(products);
     }
 
 
